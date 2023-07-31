@@ -1,10 +1,11 @@
 
 import portfolioImg from "../../src/assets/portfolio.png"
+import styles from "./style.module.css";
 
 export const Header = () => {
 
     return(
-        <header>
+        <header className={styles.header}>
             <div className="container">
                 <div>
                     <img src={portfolioImg} alt="Logo Portfolio" />

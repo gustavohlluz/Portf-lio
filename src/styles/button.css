@@ -1,0 +1,17 @@
+button{
+	border-radius: 12px;
+	height: 2.4375rem;
+	padding: 0 1.875rem;
+	font-family: var(--font-primary);
+	font-size: 0.75rem;
+	color: var(--white);
+    border: 1px solid #000;
+	font-weight: 600;
+	background-color: var(--color-primary);
+	cursor: pointer;
+}
+
+
+button:hover{
+	background-color: var(--color-primary-hover) ;
+}

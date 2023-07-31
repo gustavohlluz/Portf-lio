@@ -1,11 +1,11 @@
 import { username } from "../../../src/data/user"
-
 import bannerImg from "../../../src/assets/banner-img.png"
+import styles from "./style.module.css"
 
 
 export const WelcomeSection = () => {
     return (
-        <section>
+        <section className={styles.welcome}>
             <div className="container">
             <div className="container--info">
                 <span>{username}</span>

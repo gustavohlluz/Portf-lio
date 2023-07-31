@@ -1,0 +1,4 @@
+.welcome .container--info{
+    display: flex;
+    flex-direction: column;
+}

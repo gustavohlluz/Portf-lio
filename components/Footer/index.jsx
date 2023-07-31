@@ -9,7 +9,7 @@ export const Footer = () =>{
     
     return (
         <footer>
-            <div>
+            <div className="container">
                 <h2>Contato</h2>
                 <div>
                     <img src={whatsappIcon} alt="Whatsapp" />
