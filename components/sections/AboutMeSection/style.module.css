@@ -1,6 +1,22 @@
 .aboutMe div{
-    display: flex;
-    flex-direction: column;
-    gap: 1.875rem;
-    margin-top: 4rem;
+	margin-top: 6.8125rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1.5625rem;
+}
+
+
+@media ( min-width: 700px){
+
+	.aboutMe h2{
+		min-width: max-content;
+	}
+	
+	.aboutMe div {
+		flex-direction: row;
+		align-items: start;
+		justify-content: space-between;
+		gap: 4.375rem;
+		margin-bottom: 6.25rem;
+	}
 }

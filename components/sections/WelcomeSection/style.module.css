@@ -1,13 +1,11 @@
 .welcome div{
     display: flex;
     flex-direction: column;
-    width: 24.375rem;
-    max-width: 80%;
 }
 
 .welcome span{
     color: var(--color-primary);
-    margin: 2rem 0;
+    /* margin: 2rem 0; */
 }
 
 .welcome h2{
@@ -35,9 +33,11 @@
 
 
 @media ( min-width: 700px){
-	.welcome div {
+	.welcome div div {
 		flex-direction: row;
+        
 		gap:4rem;
+       
 
 	}
 

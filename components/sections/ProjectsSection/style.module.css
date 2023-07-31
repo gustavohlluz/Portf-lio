@@ -13,7 +13,8 @@
 }
 
 .projects li {
-	display: flex;
+	display: grid;
+    grid-template-columns: 1fr;
 	justify-content: space-between;
 	padding: 1rem;
 	border: 1px solid var(--white);
@@ -23,8 +24,6 @@
 
 .projects li > div{
 	padding: 0.8125rem;
-	display: flex;
-	flex-direction: column;
 	gap: 1.0625rem;
 }
 
@@ -36,11 +35,14 @@
 @media ( min-width: 700px){
 	
 	.projects ul{
-		flex-direction: row;
-		flex-wrap: wrap;
+		
+        max-width: 56.25rem;
+		justify-content: space-between;
+
 	}
 
 	.projects li{
+        grid-template-columns: 1fr 1fr;
 		min-width: 27.1875rem;
 	}
 }

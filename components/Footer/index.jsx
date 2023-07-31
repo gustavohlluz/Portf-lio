@@ -2,13 +2,14 @@ import whatsappIcon from "../../src/assets/whatsapp-icon.png"
 import linkedinIcon from "../../src/assets/linkedin-icon.png"
 import githubIcon from "../../src/assets/github-icon.png"
 import { user } from "../../src/data/user"
+import styles from "./style.module.css"
 
 
 export const Footer = () =>{
     
     
     return (
-        <footer>
+        <footer className={styles.footer}>
             <div className="container">
                 <h2>Contato</h2>
                 <div>
