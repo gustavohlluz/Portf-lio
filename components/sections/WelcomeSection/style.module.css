@@ -1,4 +1,51 @@
-.welcome .container--info{
+.welcome div{
     display: flex;
     flex-direction: column;
+    width: 24.375rem;
+    max-width: 80%;
+}
+
+.welcome span{
+    color: var(--color-primary);
+    margin: 2rem 0;
+}
+
+.welcome h2{
+    font-size: 2.625rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+.welcome p{
+    margin-bottom: 2rem;
+
+}
+
+.welcome button{
+    margin-bottom: 2rem;
+    width: 8.125rem;
+
+}
+
+.welcome img {
+	max-width: 19.375rem;
+	align-self: center;
+}
+
+
+
+@media ( min-width: 700px){
+	.welcome div {
+		flex-direction: row;
+		gap:4rem;
+
+	}
+
+  
+
+    .welcome img {
+		width: 27.375rem;
+		max-width: 50%;
+		align-self: center;
+	}
 }

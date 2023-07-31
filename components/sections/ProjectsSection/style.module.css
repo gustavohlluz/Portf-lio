@@ -1,0 +1,46 @@
+.projects {
+	margin-top: 5.625rem;
+}
+
+.projects h2{
+	margin-bottom: 1.5625rem;
+}
+.projects ul {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5625rem;
+    margin-bottom: 2rem;
+}
+
+.projects li {
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem;
+	border: 1px solid var(--white);
+    max-width: 50%;
+	border-radius: 25px;
+}
+
+.projects li > div{
+	padding: 0.8125rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1.0625rem;
+}
+
+.projects img {
+	max-height: 2.375rem;
+}
+
+
+@media ( min-width: 700px){
+	
+	.projects ul{
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.projects li{
+		min-width: 27.1875rem;
+	}
+}

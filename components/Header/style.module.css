@@ -19,7 +19,7 @@
 
 
 
-@media ( min-width: 720px){
+@media ( min-width: 700px){
 	.header div {
 		flex-direction: row;
 		padding: 1.8125rem 1.6875rem;
