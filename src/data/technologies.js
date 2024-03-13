@@ -8,4 +8,5 @@ export const technologies = [
   { name: "CSS", img: cssIcon, id: 2, },
   { name: "Javascript", img: jsIcon, id: 3, },
   { name: "React", img: reactIcon, id: 4, },
+  
 ];

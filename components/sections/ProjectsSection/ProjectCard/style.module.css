@@ -1,0 +1,22 @@
+.flexBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flexBoxCenter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Title{
+    position: relative;
+    left: 50px;
+}
+
+
+.Icon{
+    position: relative;
+    left: 70px;
+}

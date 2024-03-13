@@ -13,9 +13,9 @@ export const Footer = () =>{
             <div className="container">
                 <h2>Contato</h2>
                 <div>
-                    <img src={whatsappIcon} alt="Whatsapp" />
-                    <img src={linkedinIcon} alt="Linkedin" />
-                    <img src={githubIcon} alt="Github" />
+                    <a href="https://wa.me/5533991112993"><img src={whatsappIcon} alt="Whatsapp" /></a>
+                    <a href="https://www.linkedin.com/in/gustavo-luz-5952621ba/"><img src={linkedinIcon} alt="Linkedin"/></a>
+                    <a href="https:496049//github.com/gustavohlluz"><img src={githubIcon} alt="Github" /></a>
                 </div>
                 <p>Todos os direitos reservados - {user}</p>
             </div>

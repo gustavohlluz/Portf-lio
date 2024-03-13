@@ -6,8 +6,7 @@
 	margin-bottom: 1.5625rem;
 }
 .projects ul {
-	display: flex;
-	flex-direction: column;
+	display: grid;
 	gap: 1.5625rem;
     margin-bottom: 2rem;
 }
@@ -22,10 +21,10 @@
 	border-radius: 25px;
 }
 
-.projects li > div{
+/* .projects li > div{
 	padding: 0.8125rem;
 	gap: 1.0625rem;
-}
+} */
 
 .projects img {
 	max-height: 2.375rem;
@@ -35,14 +34,15 @@
 @media ( min-width: 700px){
 	
 	.projects ul{
-		
-        max-width: 56.25rem;
+		grid-template-columns: 1fr 1fr;
+		width: 100%;
+        max-width: 50rem;
 		justify-content: space-between;
 
 	}
 
 	.projects li{
-        grid-template-columns: 1fr 1fr;
+        
 		min-width: 27.1875rem;
 	}
 }

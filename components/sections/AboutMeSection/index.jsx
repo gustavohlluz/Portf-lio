@@ -8,7 +8,9 @@ export const AboutMeSection = () =>{
         <section className={styles.aboutMe}>
             <div className="container">
                 <h2>Sobre mim</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam aspernatur nobis earum ad sed minus rem doloremque expedita unde provident. Sapiente nemo distinctio ex vero quidem odio quam impedit autem?</p>
+                <p>Me formei na Kenzie enquanto trabalhava de recepcionista em hotel.
+                 Sou muito comunicativo, domino o ingles, falo espanhol, sou apaixonado por aprender e por tecnologia no geral.
+                 </p>
             </div>
         </section>
     )

@@ -7,11 +7,9 @@ export const WelcomeSection = () => {
     return (
         <section className={styles.welcome}>
             <div className="container">
-            <div className="container--info">
-                <span>{username}</span>
-                <h2>Bem Vindo ao meu portfolio</h2>
-                <p>Uma frase interessante sobre mim</p>
-                <button>Saiba mais</button>
+            <div className="container flexBox">
+                <h3>Olá, meu nome é {username}</h3>
+                <p>Posso não saber de tudo, mas me esforço ao máximo para aprender</p>
             </div>
             <img src={bannerImg} alt="Banner" />
             </div>

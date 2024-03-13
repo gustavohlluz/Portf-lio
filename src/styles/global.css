@@ -22,3 +22,8 @@
 	max-width: 60rem;
 	padding: 0 1.5rem;
 }
+
+.flexBox{
+	display: flex;
+    flex-direction: row;
+}
